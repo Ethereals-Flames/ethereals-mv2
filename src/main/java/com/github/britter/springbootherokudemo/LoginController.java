@@ -39,7 +39,7 @@ public class LoginController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String home(ModelMap model) {
-        return "home";
+        return "sign-in-illustration";
     }
 
 }
