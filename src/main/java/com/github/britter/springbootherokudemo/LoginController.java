@@ -33,12 +33,12 @@ public class LoginController {
     private RecordRepository repository;
 
     @Autowired
-    public HomeController(RecordRepository repository) {
+    public LoginController(RecordRepository repository) {
         this.repository = repository;
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public String home(ModelMap model) {
+    public String login(ModelMap model) {
         return "sign-in-illustration";
     }
 
